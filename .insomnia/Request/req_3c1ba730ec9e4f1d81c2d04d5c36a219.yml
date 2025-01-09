@@ -1,0 +1,34 @@
+_id: req_3c1ba730ec9e4f1d81c2d04d5c36a219
+type: Request
+parentId: fld_2b51d8865281419893508bc169657237
+modified: 1732393795827
+created: 1732067427592
+url: "{{ _.baseUrl }}/account/bank_balance"
+name: Get-Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_fbc16f9548984a7c9f276f2b0f5630da
+  - id: pair_f7aef72511c347cf8e84cfe773fccfb8
+    name: customer_document
+    value: "87122911535"
+    description: ""
+    disabled: false
+  - id: pair_fcbcf86d7a76410e85239744757a3c81
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1732067427592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

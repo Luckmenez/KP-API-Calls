@@ -1,0 +1,103 @@
+_id: req_8531fa4698fa4c178632f68472d60627
+type: Request
+parentId: fld_29a13aae937a4ea79a1ab6a5c3ce11bc
+modified: 1736275679814
+created: 1736261028332
+url: "{{ _.baseUrl }}/auth/register-legal-user"
+name: Register-Legal-Person
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": {
+        "type": "RESIDECIAL",
+        "publicPlace": "Rua das Flores",
+        "number": "123",
+        "zipCode": "12345678",
+        "cityName": "São Paulo",
+        "neighborhood": "Centro"
+      },
+      "phone": {
+        "type": "CELL",
+        "ddd": "11",
+        "number": "987654321"
+      },
+      "document": "17714720000111",
+      "businessEmail": "empresa@example.com",
+    	"password":"lucas123",
+      "corporateName": "Empresa Fictícia LTDA",
+      "fantasyName": "Empresa Fictícia",
+      "activityCnae": "6201500",
+      "dateConstitution": "2020-01-01T00:00:00Z",
+      "openingDate": "2020-01-01T00:00:00Z",
+      "constituitionType": "LTDA",
+      "amountMonthlyInvoicing": 50000.00,
+      "amountShareCapital": 100000.00,
+      "amountPatrimony": 200000.00,
+      "isPoliticallyExposedPerson": false,
+      "partners": [
+        {
+          "document": "12345678901",
+          "email": "socio1@example.com",
+          "name": "Sócio 1",
+          "birthDate": "1980-01-01",
+          "gender": "MALE",
+          "maritalStatus": "MARRIED",
+          "monthlyInvoicing": 10000.00,
+          "educationLevel": "COMPLETE_HIGH_SCHOOL",
+          "phone": {
+            "type": "CELL",
+            "ddd": "11",
+            "number": "987654321"
+          },
+          "address": {
+            "type": "RESIDECIAL",
+            "publicPlace": "Rua das Flores",
+            "number": "123",
+            "zipCode": "12345678",
+            "cityName": "São Paulo",
+            "neighborhood": "Centro"
+          }
+        },
+        {
+          "document": "98765432100",
+          "email": "socio2@example.com",
+          "name": "Sócio 2",
+          "birthDate": "1990-01-01",
+          "gender": "FEMALE",
+          "maritalStatus": "SINGLE",
+          "monthlyInvoicing": 15000.00,
+          "educationLevel": "COMPLETE_HIGHER",
+          "phone": {
+            "type": "RESIDENTIAL",
+            "ddd": "21",
+            "number": "123456789"
+          },
+          "address": {
+            "type": "COMMERCIAL",
+            "publicPlace": "Avenida Paulista",
+            "number": "456",
+            "zipCode": "87654321",
+            "cityName": "Rio de Janeiro",
+            "neighborhood": "Copacabana"
+          }
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1732315560207
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

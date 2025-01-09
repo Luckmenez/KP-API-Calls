@@ -1,0 +1,29 @@
+_id: req_92051f604a91495e92e634d7f32353ce
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1732582058123
+created: 1731856045819
+url: https://apisandbox.delbank.com.br/baas/api/v1/customers/87122911535
+name: Verify-Bank-Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_f30021ef71c84969aed390e48e13d9d2
+  - id: pair_1dba6e27874840c48f82d5be2caed1b2
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731856045819
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_695ec436ee2e4cbaaf71470d7f552a0b
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1736352660202
+created: 1733764852700
+url: https://apisandbox.delbank.com.br/baas/api/v2/pix/dict/payment-initialization
+name: Payment-Initialization
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"key": "+5599999999999"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_ce39e3471330401294d59f602bf1b1ab
+  - id: pair_d31f38cad8dd4ae7ad7ca53d578d1fbc
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+authentication: {}
+metaSortKey: -1733764852700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

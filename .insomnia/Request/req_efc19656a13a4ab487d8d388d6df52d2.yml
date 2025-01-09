@@ -1,0 +1,31 @@
+_id: req_efc19656a13a4ab487d8d388d6df52d2
+type: Request
+parentId: fld_2b51d8865281419893508bc169657237
+modified: 1731594662579
+created: 1731522519972
+url: "{{ _.baseUrl }}/account/verifyPhoneCode"
+name: Verify-Phone-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone":"11913298627",
+    	"codeVerification":"000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.1.1
+authentication: {}
+metaSortKey: -1731594531206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

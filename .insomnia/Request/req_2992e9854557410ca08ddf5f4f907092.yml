@@ -1,0 +1,40 @@
+_id: req_2992e9854557410ca08ddf5f4f907092
+type: Request
+parentId: fld_43b79cffe4164db4a62317a03b4c037b
+modified: 1736353248803
+created: 1736352460519
+url: "{{ _.baseUrl }}/charge/create-pix-transfer"
+name: Create-Pix-Transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"key": "+5599999999999",
+    		"apiKey": "PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb",
+    	"amount": 123.12,
+    	"holderDocument":"87122911535"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ee8fe217cf804a23b47b70e67cc851e3
+  - name: User-Agent
+    value: insomnia/10.3.0
+    id: pair_c439ec3f38804cd4a68f07218a6128e7
+  - id: pair_f0fe2a562b7840e7be5f199d4ab73b51
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1736352460519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

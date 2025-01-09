@@ -1,0 +1,42 @@
+_id: req_3e347ffde2bc4892a20a84e3fa95e48b
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1733769023103
+created: 1733765126825
+url: https://apisandbox.delbank.com.br/baas/api/v2/transfers
+name: Pix-Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 100.0,
+    	"description": "Pix transaction",
+    	"endToEndId": "E3822485720241209172440em0NIcOXr",
+    	"initiationType": "KEY"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_3f0bf73478c742bdba61fd4958764e1e
+  - id: pair_0c3a39e2bf084518970bd8f707d19d06
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+  - id: pair_9a892a2a44f64a23b1b6d23898599ff0
+    name: IdempotencyKey
+    value: 9968c2cf-a4f6-4cb7-9032-fe3edbff2c50
+    description: ""
+authentication: {}
+metaSortKey: -1733764852800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

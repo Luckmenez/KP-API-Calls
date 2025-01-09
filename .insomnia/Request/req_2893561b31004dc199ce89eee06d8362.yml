@@ -1,0 +1,39 @@
+_id: req_2893561b31004dc199ce89eee06d8362
+type: Request
+parentId: fld_5b04d48cb61645e6a9c334cb38325a03
+modified: 1736361077265
+created: 1736356493722
+url: https://apisandbox.delbank.com.br/baas/api/v2/pix/qrcode/dynamic
+name: Charge-Dynamic-Qr-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"correlationId":"bbb04f39-3bac-4b8f-976f-afbac50f49b2",
+    	"description:":"Pagando a Coxinha",
+    	"amount": 123.44,
+    	"formatResponse":"PAYLOAD_AND_QRCODE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.3.0
+    id: pair_90011bcaff824ac5a0f99210961faf87
+  - id: pair_63d3f878123b440fa2926602c326fc27
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1736361066760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_14c2f35881f4481783d73ebbb2780f7d
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1731445790338
+created: 1731445628170
+url: "{{ _.delbankUrl }}customers/send-email-code"
+name: Send-Email-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"josevaldo@peixoto.com.br"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.0.0
+authentication: {}
+metaSortKey: -1731443548724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

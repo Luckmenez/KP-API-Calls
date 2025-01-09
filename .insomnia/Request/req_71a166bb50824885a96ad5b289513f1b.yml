@@ -1,0 +1,66 @@
+_id: req_71a166bb50824885a96ad5b289513f1b
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1736269662051
+created: 1731379578091
+url: https://apisandbox.delbank.com.br/baas/api/v1/customers/person-natural
+name: Create-Natural-Account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"document":"72718775092",
+    	"birthDate":"1992-12-29",
+    	"monthlyInvoicing": 6000,
+    	"name":"Lucas Silva",
+    	"email":"lucas@email.com",
+      "phone": {
+        "type": "RESIDENTIAL",
+    		"number":"922331122",
+    		"ddd":"11"
+      },
+      "educationLevel": "COMPLETE_HIGHER",
+      "maritalStatus": "SINGLE",
+      "gender": "MALE",
+      "address": {
+        "isConfirmed": true,
+        "type": "1",
+    		"publicPlace":"R Quinze de Novembro",
+    		"number":"427",
+    		"zipCode":"13920000",
+    		"cidtyId":11,
+    		"neighborhood":"CENTRO",
+    		"complement":"",
+    		"cityName":"São Paulo"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b2dfd581a5864e9297acdda09405d7db
+  - name: User-Agent
+    value: insomnia/10.0.0
+    id: pair_49a9e17cf74740e29b842c1ab692e7f1
+    disabled: false
+  - id: pair_5e6f1173ca7c4d7c95972ab32f6df020
+    name: x-delbank-partner-key
+    value: c4ca4238a0b923820dcc509a6f75849b
+    description: ""
+    disabled: true
+  - id: pair_7afa36e07361442fb7d96ab9643ea809
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731379578091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

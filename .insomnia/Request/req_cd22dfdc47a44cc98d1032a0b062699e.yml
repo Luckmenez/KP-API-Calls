@@ -1,0 +1,32 @@
+_id: req_cd22dfdc47a44cc98d1032a0b062699e
+type: Request
+parentId: fld_29a13aae937a4ea79a1ab6a5c3ce11bc
+modified: 1736353123426
+created: 1732319964223
+url: "{{ _.baseUrl }}/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"document":"56860513055",
+    	"password":"1234abcde"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_0bc21eed53de401faae3e4b0622d2093
+authentication: {}
+metaSortKey: -1732319964223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

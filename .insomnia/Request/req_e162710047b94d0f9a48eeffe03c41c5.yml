@@ -1,0 +1,43 @@
+_id: req_e162710047b94d0f9a48eeffe03c41c5
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1731448790756
+created: 1731443548624
+url: "{{ _.delbankUrl }}customers/send-phone-code"
+name: Send-Phone-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone":"79900000000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8d83a0226da6411fb9cb090764e5ce49
+  - id: pair_4d42c58786054ca9952e2282b9b2d4c7
+    name: x-delbank-partner-key
+    value: c4ca4238a0b923820dcc509a6f75849b
+    description: ""
+    disabled: true
+  - name: User-Agent
+    value: insomnia/10.0.0
+    id: pair_7a007071321445fa9a1e16fc1dcec36b
+    disabled: true
+  - id: pair_2f7c2534d0f2456eb515cb3f8a276a5b
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5pqVEGTBg/p+APpf4ALsiVmjdB8Qh1tgmKPCyx1kSOz7Hd9IsepYPj6a0odInh0gT5hycP6CbnVo7+9TxvjnCtS
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1731411563407.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

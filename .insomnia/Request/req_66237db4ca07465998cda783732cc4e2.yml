@@ -1,0 +1,108 @@
+_id: req_66237db4ca07465998cda783732cc4e2
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1736270180416
+created: 1736269665032
+url: https://apisandbox.delbank.com.br/baas/api/v1/customers/person-legal
+name: Create-Legal-Account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": {
+        "type": "RESIDECIAL",
+        "publicPlace": "Rua das Flores",
+        "number": "123",
+        "zipCode": "12345678",
+        "cityName": "São Paulo",
+        "neighborhood": "Centro"
+      },
+      "phone": {
+        "type": "CELL",
+        "ddd": "11",
+        "number": "987654321"
+      },
+      "document": "12345678000195",
+      "businessEmail": "empresa@example.com",
+      "corporateName": "Empresa Fictícia LTDA",
+      "fantasyName": "Empresa Fictícia",
+      "activityCnae": "6201500",
+      "dateConstitution": "2020-01-01T00:00:00Z",
+      "openingDate": "2020-01-01T00:00:00Z",
+      "constituitionType": "LTDA",
+      "amountMonthlyInvoicing": 50000.00,
+      "amountShareCapital": 100000.00,
+      "amountPatrimony": 200000.00,
+      "isPoliticallyExposedPerson": false,
+      "partners": [
+        {
+          "document": "12345678901",
+          "email": "socio1@example.com",
+          "name": "Sócio 1",
+          "birthDate": "1980-01-01",
+          "gender": "MALE",
+          "maritalStatus": "MARRIED",
+          "monthlyInvoicing": 10000.00,
+          "educationLevel": "COMPLETE_HIGH_SCHOOL",
+          "phone": {
+            "type": "CELL",
+            "ddd": "11",
+            "number": "987654321"
+          },
+          "address": {
+            "type": "RESIDECIAL",
+            "publicPlace": "Rua das Flores",
+            "number": "123",
+            "zipCode": "12345678",
+            "cityName": "São Paulo",
+            "neighborhood": "Centro"
+          }
+        },
+        {
+          "document": "98765432100",
+          "email": "socio2@example.com",
+          "name": "Sócio 2",
+          "birthDate": "1990-01-01",
+          "gender": "FEMALE",
+          "maritalStatus": "SINGLE",
+          "monthlyInvoicing": 15000.00,
+          "educationLevel": "COMPLETE_HIGHER",
+          "phone": {
+            "type": "RESIDENTIAL",
+            "ddd": "21",
+            "number": "123456789"
+          },
+          "address": {
+            "type": "COMMERCIAL",
+            "publicPlace": "Avenida Paulista",
+            "number": "456",
+            "zipCode": "87654321",
+            "cityName": "Rio de Janeiro",
+            "neighborhood": "Copacabana"
+          }
+        }
+      ],
+      "requestedBankAccount": "1234567890"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_226c6d335fb44bdeb03551f0a4fb3bda
+  - id: pair_767972a6fe01426a8621369c37f7641c
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+authentication: {}
+metaSortKey: -1731379577991
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

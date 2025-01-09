@@ -1,0 +1,34 @@
+_id: req_3ccc6aff784443939ae5d1d2f8038e72
+type: Request
+parentId: fld_2b51d8865281419893508bc169657237
+modified: 1732393286969
+created: 1731880923638
+url: "{{ _.baseUrl }}/account/verify_bank_status"
+name: Verify-Bank-Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_4a0ca3be804b45fd9096a2a8b475269d
+  - id: pair_8ec0963de3c84b06be2e837ea3dc9991
+    name: customer_document
+    value: "60460409069"
+    description: ""
+    disabled: false
+  - id: pair_c601ffb0bf5b45e1ad436f774d6e0cc5
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1732067427692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

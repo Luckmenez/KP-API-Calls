@@ -1,0 +1,34 @@
+_id: req_6cd3485efa614469b676012abc58d7d2
+type: Request
+parentId: fld_2b51d8865281419893508bc169657237
+modified: 1732393400694
+created: 1732065829597
+url: "{{ _.baseUrl }}/account/bank_account_info"
+name: Bank-Account-Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_e6c2ad782b6d4a96b628d938eb6ab80e
+  - id: pair_d3e6f2d74afe4e189e8cff6425c6168a
+    name: customer_document
+    value: "87122911535"
+    description: ""
+    disabled: false
+  - id: pair_3daab853fef1412ba85008c4539286a8
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1732067427642
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

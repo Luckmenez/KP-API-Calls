@@ -1,0 +1,45 @@
+_id: req_4fb424bfe2c243f792317d9bd4ba76b9
+type: Request
+parentId: fld_d5dd3dcba2ee4f38a03c136ac377d841
+modified: 1736363632463
+created: 1736361498145
+url: https://apisandbox.delbank.com.br/baas/api/v2/pix/qrcode/static
+name: Charge-Static-Qr-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"correlationId":"cc62577a-aec3-43f2-a71e-1988897e192e",
+    	"description:":"Pagando a Coxinha",
+    	"amount": 234.11,
+    	"formatResponse":"PAYLOAD_AND_QRCODE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7db97be3523746258be9a102d4cf5cf0
+  - name: User-Agent
+    value: insomnia/10.3.0
+    id: pair_b80f3efe471d4ab6ab46534a9841282d
+  - id: pair_0910ffe03f3a402ab7ea3d0ce2e1afb9
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+  - id: pair_1cc6f3053f9a4decb5b6a681497b2dca
+    name: idempotencyKey
+    value: a78750ce-5d76-4366-9e35-a1ecfbb7a09f
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1736361498145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

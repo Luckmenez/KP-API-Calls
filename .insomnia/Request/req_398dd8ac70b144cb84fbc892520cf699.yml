@@ -1,0 +1,46 @@
+_id: req_398dd8ac70b144cb84fbc892520cf699
+type: Request
+parentId: fld_5b04d48cb61645e6a9c334cb38325a03
+modified: 1736361072423
+created: 1736359635018
+url: https://apisandbox.delbank.com.br/baas/api/v2/transfers
+name: Execute-Dynamic-QR-Code-Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"amount": 123.44,
+    		"description": "description",
+    		"endToEndId": "E38224857202501081753364BPBWNC1K",
+    		"transactionId": "vcharge4aa4202c8bef4b6a9becc67b9",
+    		"initiationType": "QR_CODE_DYNAMIC"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_88a857f69ea4422a83b10dc9b89e50cd
+  - name: User-Agent
+    value: insomnia/10.3.0
+    id: pair_fd2be1a47b024e29a4ca92f1af8f9879
+  - id: pair_45c1a9a391884d14ad1d449d9ea5eed5
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+  - id: pair_85281026986842c98e8086e1728a470c
+    name: IdempotencyKey
+    value: 4309ba9d-8a39-413c-a672-fa35ab289e9d
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1736361066660
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
