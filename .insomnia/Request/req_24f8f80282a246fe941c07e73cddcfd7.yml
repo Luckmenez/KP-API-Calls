@@ -1,0 +1,29 @@
+_id: req_24f8f80282a246fe941c07e73cddcfd7
+type: Request
+parentId: fld_6e47a3a3ee8448ba880e56fbcaf113a7
+modified: 1732661274284
+created: 1732069230034
+url: "{{ _.delbankUrl }}/customers/87122911535/bank-accounts"
+name: Get-Bank-Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_54c0c6e9b9cf4db0863d6c3e8cc2d4f1
+  - id: pair_689366b2c3bd47339de8848cdd939c75
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731976012271
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

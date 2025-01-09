@@ -1,0 +1,30 @@
+_id: req_24b4ddd711074bb59b6a5c9c0e05341d
+type: Request
+parentId: fld_82b75850299d45d49538a0bec8a7370c
+modified: 1731594668928
+created: 1731448814811
+url: "{{ _.baseUrl }}/account/sendphoneVerificationCode"
+name: Send-Phone-Verification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone":"11913298627"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.0.0
+authentication: {}
+metaSortKey: -1731594531106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

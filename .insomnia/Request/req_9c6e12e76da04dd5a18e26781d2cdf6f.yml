@@ -1,0 +1,27 @@
+_id: req_9c6e12e76da04dd5a18e26781d2cdf6f
+type: Request
+parentId: fld_5a54155f3db24a9d8878ccf2bb900f4a
+modified: 1736430216594
+created: 1736429729498
+url: https://apisandbox.delbank.com.br/baas/api/v2/pix/qrcode/payment-initialization
+name: Execute-Dynamic-QR-Code-Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1736429729498
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

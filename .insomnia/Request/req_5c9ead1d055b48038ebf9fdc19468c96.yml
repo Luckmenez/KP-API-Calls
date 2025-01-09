@@ -1,0 +1,43 @@
+_id: req_5c9ead1d055b48038ebf9fdc19468c96
+type: Request
+parentId: fld_82b75850299d45d49538a0bec8a7370c
+modified: 1732898215822
+created: 1731850333116
+url: "{{ _.baseUrl }}/account/sendDocumentVerification"
+name: Send-Document-Verification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"base64":"/9j/4AAQSkZJRgABAQEAYABgAAD/",
+    	"documentType":"SELFIE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7668e4a6f53543c391cf2426eb2afbff
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_950dc503ba6a4d35a64ac891263dbe20
+  - id: pair_682f0c275d164c8a8dba56a25019b729
+    name: customer_document
+    value: "73678413005"
+    description: ""
+    disabled: false
+  - id: pair_03eaf3d52e764b5aa166cca6aaec1f9c
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731850333116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

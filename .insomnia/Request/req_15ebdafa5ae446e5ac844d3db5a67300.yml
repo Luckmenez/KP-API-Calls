@@ -1,0 +1,54 @@
+_id: req_15ebdafa5ae446e5ac844d3db5a67300
+type: Request
+parentId: fld_80333e5cfc5c486ca27d2fe79ee7a3a5
+modified: 1736260924786
+created: 1732315560307
+url: "{{ _.baseUrl }}/auth/register-natural-user"
+name: Register-Natural-Person
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "document": "73678413005",
+      "password": "1234abcde",
+      "birthDate": "1992-12-29",
+      "monthlyInvoicing": 6000,
+      "name": "Lucas Silva",
+      "email": "lucas@email.com",
+      "phone": {
+        "type": "RESIDENTIAL",
+        "number": "922331122",
+        "ddd": "11"
+      },
+      "educationLevel": "COMPLETE_HIGHER",
+      "maritalStatus": "SINGLE",
+      "gender": "MALE",
+      "address": {
+        "isConfirmed": true,
+        "type": "1",
+        "publicPlace": "R Quinze de Novembro",
+        "number": "427",
+        "zipCode": "13920000",
+        "cityId": 11,
+        "neighborhood": "CENTRO",
+        "complement": "",
+        "cityName": "São Paulo"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.1.1
+authentication: {}
+metaSortKey: -1732315560307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_a81faac9cbed4e589e2bd8979fe6c7b6
+type: Request
+parentId: fld_6e47a3a3ee8448ba880e56fbcaf113a7
+modified: 1736431130756
+created: 1736431095781
+url: ""
+name: QR-Code-Initialization
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1735762557717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

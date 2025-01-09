@@ -1,0 +1,58 @@
+_id: req_1ba9237be732409d88b0b5d30f48ccc0
+type: Request
+parentId: fld_6e47a3a3ee8448ba880e56fbcaf113a7
+modified: 1732897779654
+created: 1732661159326
+url: "{{ _.delbankUrl }}/charges"
+name: Create-Charge
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "BANKSLIP",
+      "correlationId": "0aacdda4-a115-4a0c-b44a-6fdd3076b499",
+      "yourNumber": "87122911535",
+      "dueDate": "2024-12-29",
+      "Amount": 0.1,
+      "payer": {
+        "name": "Lucas Silva",
+        "document": "87122911535",
+        "email": "lucas@email.com",
+        "phone": {
+          "prefix": "79",
+          "number": "900000000"
+        },
+        "address": {
+          "zipCode": "49000000",
+          "publicPlace": "public place",
+          "neighborhood": "neightborhood",
+          "number": "000",
+          "complement": "complement",
+          "city": "city",
+          "state": "SE"
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_b2e5f8327a6a4842826a900c80d01aac
+  - id: pair_f8f0bacd8626419e8c79f13c996ce7c6
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5o0zFAEYTafkABQ40Y/pFncEgFn1fuSLeP6hKmxHTeFGTDHYR91tfhcROg4PbT6hznQmfBG81GnFKe/sWA2dzpgPDYskfDKJbWg45b+qVEkxA==
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731976012371
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_6a02f63f3d4a484ba1ffcfc6800d524f
+type: Request
+parentId: fld_6e47a3a3ee8448ba880e56fbcaf113a7
+modified: 1731977082497
+created: 1731977047215
+url: https://apisandbox.delbank.com.br/baas/api/v2/transactions
+name: Get-Bank-Transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_dd09242a99bf4c99b7f3857bb7c7e785
+  - id: pair_bd0e0c0169874ae6b8898c31d3f36e9a
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731976012171
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

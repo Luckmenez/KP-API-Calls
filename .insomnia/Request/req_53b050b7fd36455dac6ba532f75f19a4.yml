@@ -1,0 +1,29 @@
+_id: req_53b050b7fd36455dac6ba532f75f19a4
+type: Request
+parentId: fld_6e47a3a3ee8448ba880e56fbcaf113a7
+modified: 1731977346817
+created: 1731976012071
+url: https://apisandbox.delbank.com.br/baas/api/v1/balances
+name: Get-Bank-Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.1.1
+    id: pair_4807f211abef4b7aa00b46ebf20985ec
+  - id: pair_3f3ad36e75a64bf990ee71fe0d7be6d4
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5o0zFAEYTafkABQ40Y/pFncEgFn1fuSLeP6hKmxHTeFGTDHYR91tfhcROg4PbT6hznQmfBG81GnFKe/sWA2dzpgPDYskfDKJbWg45b+qVEkxA==
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1731976012071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_0ec6ebed1b2d40629c7459ed4b368fcb
+type: Request
+parentId: fld_82b75850299d45d49538a0bec8a7370c
+modified: 1731594727517
+created: 1731522379089
+url: "{{ _.baseUrl }}/account/sendEmailVerificationCode"
+name: Send-Email-Verification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"email@email.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/10.1.1
+authentication: {}
+metaSortKey: -1731594531306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

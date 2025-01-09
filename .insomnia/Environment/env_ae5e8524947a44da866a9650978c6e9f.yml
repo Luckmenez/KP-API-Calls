@@ -1,0 +1,18 @@
+_id: env_ae5e8524947a44da866a9650978c6e9f
+type: Environment
+parentId: wrk_dee1e27df4cc48aebdc4b64a1b4e67a7
+modified: 1732898169858
+created: 1731377620827
+name: Base Environment
+data:
+  baseUrl: localhost:3333
+  delbankUrl: https://apisandbox.delbank.com.br/baas/api/v1
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiZjdmOTcwNmMtNTlkYi00Zjg0LWJlNGYtNzRlN2ZhN2VkNWEwIiwiZnVsbF9uYW1lIjoiTHVjYXMgU2lsdmEiLCJkb2N1bWVudCI6IjczNjc4NDEzMDA1IiwicGFzc3dvcmQiOiIkMmIkMDgkTE4wT0RSeHk3d1BaNXM2cWszc1NzT3hkeGFuNkx1QnhsUVRsVVg3NGV5YTYvZWt6SXlsV3UiLCJlbWFpbCI6Imx1Y2FzQGVtYWlsLmNvbSIsImJpcnRoX2RhdGUiOiIxOTkyLTEyLTI5IiwidHlwZSI6Ik5BVFVSQUwiLCJzdGF0dXMiOiJQRU5ESU5HX0RPQ1VNRU5UQVRJT04iLCJjcmVhdGVkX2F0IjoiMjAyNC0xMS0yOVQxNjozNToxMy43NjlaIiwidXBkYXRlZF9hdCI6IjIwMjQtMTEtMjlUMTY6MzU6MTQuMTY3WiIsImJhbmtBY2NvdW50cyI6W119LCJpYXQiOjE3MzI4OTgxMjcsImV4cCI6MTczMjk4NDUyNywiaXNzIjoiS29ycGF5IEFwaSIsInN1YiI6IjczNjc4NDEzMDA1In0.CkBMBzt5cbiGXlOx0dDg4t08EvgV36_TSwx9bpuXEQs
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - delbankUrl
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1731377620827
