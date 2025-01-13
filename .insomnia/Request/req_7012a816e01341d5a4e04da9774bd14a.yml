@@ -1,0 +1,38 @@
+_id: req_7012a816e01341d5a4e04da9774bd14a
+type: Request
+parentId: fld_903e98abdc9c4ca4898cc261d8bee567
+modified: 1736788655455
+created: 1736785614670
+url: https://apisandbox.delbank.com.br/baas/api/v1/pix/dict/auth-code
+name: Get-Auth-Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sender":"EMAIL",
+    	"receiver":"luckmenez@gmail.com",
+    	"payload":"someCode {{code}}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_78b76ea2617143c69c11960873f3c6a0
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_547317cbf83c4fa5a1697435263d72f4
+  - id: pair_2e37ed12e6f449708a71c7ecab841e37
+    name: x-delbank-api-key
+    value: "{{ _.personal_api_key }}"
+    description: ""
+authentication: {}
+metaSortKey: -1736785614670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

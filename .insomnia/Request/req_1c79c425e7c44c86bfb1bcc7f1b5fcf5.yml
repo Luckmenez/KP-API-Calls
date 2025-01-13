@@ -1,0 +1,28 @@
+_id: req_1c79c425e7c44c86bfb1bcc7f1b5fcf5
+type: Request
+parentId: fld_c0d73887f61b4792904d587518f34f8b
+modified: 1736776375194
+created: 1736775151121
+url: https://apisandbox.delbank.com.br/baas/api/v1/customers/77240201082/bank-accounts
+name: Linked-Bank-Accounts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_52311bbaea53481188fd50fbbc17f006
+  - id: pair_dd97afddae804d3ca5a1eb1713066ed7
+    name: x-delbank-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rYEc8ujLtarBP0nNw2FKdgK+5YJFciFwTdORlZsdaTzjEbKN5ut+Ag4xGy69bbtXJmzkzRDHry9ubYbMW4xFMb
+    description: ""
+authentication: {}
+metaSortKey: -1731379577891
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

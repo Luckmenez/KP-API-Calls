@@ -1,0 +1,42 @@
+_id: req_0107b6bdc8de493a8a885893c0d59d91
+type: Request
+parentId: fld_b0926a5a33ba4bbf8c8b0b74ef652698
+modified: 1736445729170
+created: 1736442807937
+url: "{{ _.baseUrl }}/charge/dynamic-qr-code-generation"
+name: Charge-QR-Code-Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "description":"Description",
+    "amount": 123.90,		"pixKey":"+5599999999999",
+    "additionalInformation":"aditional"	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e93e2ae2bc504976811a8612910e3e70
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_dd5f5fd228f54016afc889a04ea61969
+  - id: pair_486211a0c5dd4594b36130d58fbc1bb9
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+  - id: pair_d63b708f78e6482fbee33120fc9bec51
+    name: api_key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5o0zFAEYTafkABQ40Y/pFncEgFn1fuSLeP6hKmxHTeFGTDHYR91tfhcROg4PbT6hznQmfBG81GnFKe/sWA2dzpgPDYskfDKJbWg45b+qVEkxA==
+    description: ""
+authentication: {}
+metaSortKey: -1736442807937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

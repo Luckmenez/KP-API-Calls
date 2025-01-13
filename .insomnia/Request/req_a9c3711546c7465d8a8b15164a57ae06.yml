@@ -1,0 +1,32 @@
+_id: req_a9c3711546c7465d8a8b15164a57ae06
+type: Request
+parentId: fld_903e98abdc9c4ca4898cc261d8bee567
+modified: 1736785549375
+created: 1736785477652
+url: https://apisandbox.delbank.com.br/baas//api/v1/pix/dict/entries
+name: Pix-Key-Creation
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_f5ad090e334e43248dea51497859c67e
+  - id: pair_02b288ab76a34e6b8cfcab5ff335b7ca
+    name: x-delbank-api-key
+    value: "{{ _.personal_api_key }}"
+    description: ""
+  - id: pair_1875a7c77eb54c248b24976de7bde60e
+    name: IdempotencyKey
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1736785477652
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
