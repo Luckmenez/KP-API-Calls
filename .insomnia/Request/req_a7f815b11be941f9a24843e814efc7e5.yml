@@ -1,17 +1,17 @@
 _id: req_a7f815b11be941f9a24843e814efc7e5
 type: Request
 parentId: fld_c0d73887f61b4792904d587518f34f8b
-modified: 1736363736193
+modified: 1736441865696
 created: 1736358249231
 url: https://apisandbox.delbank.com.br/baas/api/v2/pix/qrcode/payment-initialization
-name: Payment-Initialization
+name: QR-Code-Payment-Initialization
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: >-
     {
-    	"payload":"00020126580014br.gov.bcb.pix01361aa5ef56-3b5f-4665-9ece-e7513efc03e55204000053039865406234.115802BR5907DELBANK6007ARACAJU62250521vchargeb59627144aa6476304D8D9"
+    	"payload":"00020126580014br.gov.bcb.pix01361aa5ef56-3b5f-4665-9ece-e7513efc03e55204000053039865406234.115802BR5907DELBANK6007ARACAJU62250521vcharge142af986b8ae4f6304DEF9"
     }
 parameters: []
 headers:

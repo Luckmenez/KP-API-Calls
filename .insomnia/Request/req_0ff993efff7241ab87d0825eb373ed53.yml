@@ -1,7 +1,7 @@
 _id: req_0ff993efff7241ab87d0825eb373ed53
 type: Request
 parentId: fld_d5dd3dcba2ee4f38a03c136ac377d841
-modified: 1736363774592
+modified: 1736441914317
 created: 1736363065208
 url: https://apisandbox.delbank.com.br/baas/api/v2/transfers
 name: Execute-Static-QR-Code-Payment
@@ -13,8 +13,8 @@ body:
     {
       "amount": 123.44,
       "description": "description",
-      "endToEndId": "E38224857202501081915OXTLYN1MGPS",
-      "transactionId": "vchargeb59627144aa647",
+      "endToEndId": "E38224857202501091658MVXD2P2HYBC",
+      "transactionId": "vcharge142af986b8ae4f",
       "initiationType": "QR_CODE_STATIC"
     }
 parameters: []

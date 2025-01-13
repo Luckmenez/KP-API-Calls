@@ -1,7 +1,7 @@
 _id: req_914516ddba9b4e09abece923376cfd06
 type: Request
 parentId: fld_2b51d8865281419893508bc169657237
-modified: 1732898215822
+modified: 1736450675857
 created: 1731850333116
 url: "{{ _.baseUrl }}/account/sendDocumentVerification"
 name: Send-Document-Verification
@@ -24,7 +24,7 @@ headers:
     id: pair_950dc503ba6a4d35a64ac891263dbe20
   - id: pair_682f0c275d164c8a8dba56a25019b729
     name: customer_document
-    value: "73678413005"
+    value: "77240201082"
     description: ""
     disabled: false
   - id: pair_03eaf3d52e764b5aa166cca6aaec1f9c

@@ -1,9 +1,9 @@
 _id: req_92051f604a91495e92e634d7f32353ce
 type: Request
 parentId: fld_c0d73887f61b4792904d587518f34f8b
-modified: 1732582058123
+modified: 1736774504242
 created: 1731856045819
-url: https://apisandbox.delbank.com.br/baas/api/v1/customers/87122911535
+url: https://apisandbox.delbank.com.br/baas/api/v1/customers/77240201082
 name: Verify-Bank-Status
 description: ""
 method: GET

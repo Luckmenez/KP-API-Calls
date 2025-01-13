@@ -1,7 +1,7 @@
 _id: req_3e347ffde2bc4892a20a84e3fa95e48b
 type: Request
-parentId: fld_c0d73887f61b4792904d587518f34f8b
-modified: 1733769023103
+parentId: fld_903e98abdc9c4ca4898cc261d8bee567
+modified: 1736785206800
 created: 1733765126825
 url: https://apisandbox.delbank.com.br/baas/api/v2/transfers
 name: Pix-Payment
@@ -13,7 +13,7 @@ body:
     {
     	"amount": 100.0,
     	"description": "Pix transaction",
-    	"endToEndId": "E3822485720241209172440em0NIcOXr",
+    	"endToEndId": "E38224857202501131617AO79X3DWNC0",
     	"initiationType": "KEY"
     }
 parameters: []
@@ -32,7 +32,7 @@ headers:
     value: 9968c2cf-a4f6-4cb7-9032-fe3edbff2c50
     description: ""
 authentication: {}
-metaSortKey: -1733764852800
+metaSortKey: -1736785192663
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
