@@ -1,0 +1,41 @@
+_id: req_97709a3702d447dfba5cc40b020334c9
+type: Request
+parentId: fld_6d8d580e984748bfafaf9d0695152755
+modified: 1736880195433
+created: 1736865666724
+url: "{{ _.baseUrl }}/charge/create-pix-key"
+name: Create Pix
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sender":"EMAIL",
+    	"receiver":"lucas@rautakitecnologia.com.br"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0aa98513afdb47f2a970f2ee4a89085d
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_7a638fd34e754373ad740ae6183b6767
+  - id: pair_3ee0b8de4b144cc1b9445349e2514b8e
+    name: Authorization
+    value: bearer {{ _.token }}
+    description: ""
+  - id: pair_fca07dcabcf84a4a85d8bf1bb6ee289f
+    name: x-api-key
+    value: PJPyJ2xGmyB9oDHyNIUwNOt1dgpgolBwcE16ybaKD5rm2h/a5H3jocQScj2DfE/FfRaxL97MzlgYbYFVQbhTowW3z2h77Dvxc4JFMCyE0auEWBbNDSudYCXOWmrB9nCEZx1kuvTnU7Ig4cOdEQYj+w==
+    description: ""
+authentication: {}
+metaSortKey: -1736865666724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

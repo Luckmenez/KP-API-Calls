@@ -1,7 +1,7 @@
 _id: req_7012a816e01341d5a4e04da9774bd14a
 type: Request
 parentId: fld_903e98abdc9c4ca4898cc261d8bee567
-modified: 1736788655455
+modified: 1736879967734
 created: 1736785614670
 url: https://apisandbox.delbank.com.br/baas/api/v1/pix/dict/auth-code
 name: Get-Auth-Code

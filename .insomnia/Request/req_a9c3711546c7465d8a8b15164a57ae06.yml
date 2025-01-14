@@ -1,7 +1,7 @@
 _id: req_a9c3711546c7465d8a8b15164a57ae06
 type: Request
 parentId: fld_903e98abdc9c4ca4898cc261d8bee567
-modified: 1736785549375
+modified: 1736874230374
 created: 1736785477652
 url: https://apisandbox.delbank.com.br/baas//api/v1/pix/dict/entries
 name: Pix-Key-Creation
@@ -19,7 +19,7 @@ headers:
     description: ""
   - id: pair_1875a7c77eb54c248b24976de7bde60e
     name: IdempotencyKey
-    value: ""
+    value: "3123123123124123"
     description: ""
 authentication: {}
 metaSortKey: -1736785477652
